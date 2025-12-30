@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import NavbarComponent from "./components/Navbar";
 import Hero from "./components/Hero";
 import Featured from "./components/Featured";
 import InfoStrip from "./components/InfoStrip";
@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Navbar />
+      <NavbarComponent />
       <Hero />
       <Featured />
       <InfoStrip />
