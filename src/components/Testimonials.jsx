@@ -1,11 +1,11 @@
 const Testimonials = () => {
   return (
-    <section className="px-10 py-16">
-      <h2 className="text-2xl font-semibold text-center mb-8">
+    <section className="mx-auto max-w-9/10 px-10 py-16">
+      <h2 className="text-2xl font-semibold text-center mb-8 text-green-900">
         Our Client Reviews
       </h2>
 
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="text-center grid md:grid-cols-3 gap-6">
         {[
           "Amazing quality and fast delivery!",
           "Plants arrived healthy and beautiful.",
