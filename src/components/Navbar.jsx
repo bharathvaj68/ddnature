@@ -73,22 +73,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {showSearch && (
-            <div className="flex relative top-1/8 left-1/20 w-18/20 justify-between gap-3">
-              <input
-                type="text"
-                placeholder="Search by Oil-Name"
-                autoFocus
-                className="bg-white text-green-700 py-3 pl-5 w-10/10 border-none outline-none rounded-xs"
-              />
-              <img
-                src={searchGreen}
-                className="bg-white px-[10px] rounded-xs"
-              />
-            </div>
-          )}
-
-
       {showOption && (
         <div className="">
           <ul className="top-30 flex flex-col bg-white text-green-700 my-2 w-10/10 border-none space-y-2 ">
@@ -119,6 +103,22 @@ const Navbar = () => {
           </ul>
         </div>
       )}
+
+      {showSearch && (
+            <div className="flex relative top-1/8 left-1/20 w-18/20 justify-between gap-3">
+              <input
+                type="text"
+                placeholder="Search by Oil-Name"
+                autoFocus
+                className="bg-white text-green-700 py-3 pl-5 w-10/10 border-none outline-none rounded-xs"
+              />
+              <img
+                src={searchGreen}
+                className="bg-white px-[10px] rounded-xs"
+              />
+            </div>
+          )}
+
     </header>
   );
 };
