@@ -1,10 +1,10 @@
 const About = () => {
   return (
-    <>
-    <h2 className="mx-auto max-w-9/10 px-10 py-20 text-center text-3xl font-semibold mb-4">
-        Get To Know Who We Are <br /> And What We Do
+    <div id="about">
+    <h2 className="mx-auto sm:w-5/10 md:w-6/10 lg:w-5/10 xl:w-3/10 px-10 py-10 sm:py-20 text-center text-3xl font-semibold ">
+        Get To Know Who We Are And What We Do
       </h2>
-    <section className="mx-auto max-w-9/10 px-10 pt-5 pb-10 grid md:grid-cols-2 gap-10 items-center">
+    <section className="mx-auto max-w-9/10 px-5 sm:px-10 pt-5 pb-10 grid md:grid-cols-2 gap-10 items-center">
       <div>
         <h2 className="text-2xl font-semibold my-4 text-green-900">
           Learn About Us
@@ -27,7 +27,7 @@ const About = () => {
         <div className="bg-gray-300 rounded-2xl h-32"></div>
       </div>
     </section>
-    <section className="mx-auto max-w-9/10 px-10 py-10 grid md:grid-cols-2 gap-10 items-center">
+    <section className="mx-auto max-w-9/10 px-5 sm:px-10 py-10 grid md:grid-cols-2 gap-10 items-center">
       <div>
         <h3 className="text-2xl font-semibold my-4 text-green-900">
            What Sets Us Apart
@@ -47,7 +47,7 @@ const About = () => {
         <div className="bg-gray-300 rounded-2xl h-32"></div>
       </div>
     </section>
-    </>
+    </div>
   );
 };
 

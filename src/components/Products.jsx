@@ -8,11 +8,11 @@ const products = [
   { img: img3, name: "Majesty Palm", price: "$52" },
 ];
 
-const Featured = () => {
+const Products = () => {
   return (
-    <section className="mx-auto w-9/10 py-10">
+    <section id="products" className="mx-auto w-9/10 py-10">
       <div className="flex justify-between items-center mb-8">
-        <h2 className="text-2xl font-semibold">Featured</h2>
+        <h2 className="text-2xl font-semibold">Products</h2>
         <a href="#" className="text-sm text-teal-600">View all</a>
       </div>
 
@@ -32,4 +32,4 @@ const Featured = () => {
   );
 };
 
-export default Featured;
+export default Products;

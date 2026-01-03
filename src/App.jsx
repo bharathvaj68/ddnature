@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Featured from "./components/Featured";
+import Products from "./components/Products";
 import InfoStrip from "./components/InfoStrip";
 import About from "./components/About";
 import Testimonials from "./components/Testimonials";
@@ -13,7 +13,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Featured />
+      <Products />
       <InfoStrip />
       <About />
       <Testimonials />

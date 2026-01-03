@@ -49,3 +49,7 @@
 @theme {
   --font-chillax: 'Chillax', sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}

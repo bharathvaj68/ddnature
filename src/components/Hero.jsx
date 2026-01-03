@@ -46,7 +46,7 @@ const Hero = () => {
           <div className="bg-gray-400  flex-col sm:h-[220px] " >
             <img className="w-full h-full object-cover relative z-10" src={img3}/>
             <p className="bg-green-900 px-1 w-fit relative -top-9/10 left-2 text-white text-base font-thin z-20">Navaranthna</p>
-            <img className="z-0 relative w-[100px] h-[100px] -top-25 -left-6" src={pattern}/>
+            <img className="z-0 relative w-[75px] h-[75px] sm:w-[100px] sm:h-[100px] -top-21 -left-4 sm:-top-25 sm:-left-6" src={pattern}/>
           </div>
         </div>
 

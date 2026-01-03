@@ -37,15 +37,7 @@ const Navbar = () => {
           <ul className="sm:flex flex-row hidden md:flex gap-6 text-m ">
             <li>
               <a
-                href="#"
-                className=""
-              >
-                Shop
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
+                href="#products"
                 className=""
               >
                 Products
@@ -53,10 +45,18 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href={About}
+                href="#about"
                 className=""
               >
                 About
+              </a>
+            </li>
+            <li>
+              <a
+                href="#contact"
+                className=""
+              >
+                Contact
               </a>
             </li>
           </ul>
@@ -68,25 +68,17 @@ const Navbar = () => {
           <img src={search} alt="Search" className="cursor-pointer  hover:opacity-80" onClick={() => setShowSearch(!showSearch)} />
 
           
-          <img src={cart} />
+          <img src={cart} className="hidden sm:block"/>
           <img src={user} />
         </div>
       </div>
 
       {showOption && (
         <div className="">
-          <ul className="top-30 flex flex-col bg-white text-green-700 my-2 w-10/10 border-none space-y-2 ">
+          <ul className="top-30 flex flex-col bg-white text-green-700 my-2 border-none space-y-2 ">
             <li>
               <a
-                href="#"
-                className="block py-2 px-3 text-m active:text-white active:bg-green-700 hover:bg-neutral-tertiary hover:bg-transparent border-0 hover:text-fg-brand p-0"
-              >
-                Shop
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
+                href="#products"
                 className="block py-2 px-3 text-m active:text-white active:bg-green-700 hover:bg-neutral-tertiary hover:bg-transparent border-0 hover:text-fg-brand p-0"
               >
                 Products
@@ -97,7 +89,23 @@ const Navbar = () => {
                 href="#"
                 className="block py-2 px-3 text-m active:text-white active:bg-green-700 hover:bg-neutral-tertiary hover:bg-transparent border-0 hover:text-fg-brand p-0"
               >
+                Cart
+              </a>
+            </li>
+            <li>
+              <a
+                href="#about"
+                className="block py-2 px-3 text-m active:text-white active:bg-green-700 hover:bg-neutral-tertiary hover:bg-transparent border-0 hover:text-fg-brand p-0"
+              >
                 About
+              </a>
+            </li>
+            <li>
+              <a
+                href="#contact"
+                className="block py-2 px-3 text-m active:text-white active:bg-green-700 hover:bg-neutral-tertiary hover:bg-transparent border-0 hover:text-fg-brand p-0"
+              >
+                Contact
               </a>
             </li>
           </ul>
