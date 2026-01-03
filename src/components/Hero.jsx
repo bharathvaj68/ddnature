@@ -7,11 +7,11 @@ import pattern from "../assets/pattern.svg"
 const Hero = () => {
   return (
     <section className="bg-green-900 text-neutral-50">
-      <div className="mx-auto max-w-9/10 py-20  grid lg:grid-cols-2 gap-8 items-center">
+      <div className="mx-auto max-w-9/10 py-10 sm:py-none  grid lg:grid-cols-2 gap-8 items-center">
 
         {/* LEFT */}
         <div>
-          <h1 className="text-[64px] leading-[64px] font-chillax font-semibold mb-6">
+          <h1 className="text-[64px] leading-16 font-chillax font-semibold mb-6">
             Happiness <br />blooms from <br /> within
           </h1>
 
@@ -35,19 +35,19 @@ const Hero = () => {
 
         {/* RIGHT */}
         <div className="grid grid-cols-2 gap-3">
-          <div className="bg-gray-400  flex-col h-[220px] " >
+          <div className="bg-gray-400  flex-col sm:h-[220px] " >
             <img className="z-0 w-full h-full items-center object-cover" src={img1}/>
             <p className="bg-green-900 px-1 w-fit relative -top-9/10 left-2 text-white text-base font-thin">New Parachute</p>
             </div>
-          <div className="bg-gray-400  flex-col h-[450px] row-span-2 " >
+          <div className="bg-gray-400  flex-col sm:h-[450px] row-span-2 " >
             <img className="w-full h-full object-cover " src={img2}/>
             <p className="bg-green-900 px-1 w-fit relative -top-19/20 left-4 text-white text-base font-thin">Gold Winner</p>
-            </div>
-          <div className="bg-gray-400  flex-col h-[220px] " >
+          </div>
+          <div className="bg-gray-400  flex-col sm:h-[220px] " >
             <img className="w-full h-full object-cover relative z-10" src={img3}/>
             <p className="bg-green-900 px-1 w-fit relative -top-9/10 left-2 text-white text-base font-thin z-20">Navaranthna</p>
             <img className="z-0 relative w-[100px] h-[100px] -top-25 -left-6" src={pattern}/>
-            </div>
+          </div>
         </div>
 
       </div>

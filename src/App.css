@@ -4,6 +4,7 @@
 
 @import "tailwindcss/preflight.css" layer(base);
 
+
 @keyframes fadeUp {
   0% {
     opacity: 0;
@@ -26,7 +27,7 @@
 }
 
 
-/* 
+
 @font-face {
   font-family: 'Chillax';
   src: url('./assets/fonts/chillax/Chillax-ExtraLight.woff2') format('woff2');
@@ -70,5 +71,5 @@
 }
 
 @theme {
-  --font-chillax: 'Chillax';
-} */
+  --font-chillax: 'Chillax', sans-serif;
+}
