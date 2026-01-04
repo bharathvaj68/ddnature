@@ -1,6 +1,6 @@
 const Testimonials = () => {
   return (
-    <section className="mx-auto max-w-9/10 px-5 py-10  sm:px-10 sm:py-16">
+    <section className="mx-auto max-w-9/10 px-5 py-10 font-gilroy sm:px-10 sm:py-16">
       <h2 className="text-2xl font-semibold text-center mb-8 text-green-900">
         Our Client Reviews
       </h2>

@@ -5,7 +5,7 @@
 @import "tailwindcss/preflight.css" layer(base);
 
 
-@keyframes fadeUp {
+/* @keyframes fadeUp {
   0% {
     opacity: 0;
     transform: translateY(10px);
@@ -24,52 +24,159 @@
   .animate-fade-up {
     animation: fadeUp 12s infinite;
   }
-}
+} */
 
 
+
+/* For font-chillax  */
 
 @font-face {
   font-family: 'Chillax';
-  src: url('./assets/fonts/chillax/Chillax-ExtraLight.woff2') format('woff2');
+  src: url('./fonts/chillax/Chillax-ExtraLight.woff2') format('woff2');
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Chillax';
-  src: url('./assets/fonts/chillax/Chillax-Light.woff2') format('woff2');
+  src: url('./fonts/chillax/Chillax-Light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Chillax';
-  src: url('./assets/fonts/chillax/Chillax-Regular.woff2') format('woff2');
+  src: url('./fonts/chillax/Chillax-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Chillax';
-  src: url('./assets/fonts/chillax/Chillax-Medium.woff2') format('woff2');
+  src: url('./fonts/chillax/Chillax-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Chillax';
-  src: url('./assets/fonts/chillax/Chillax-SemiBold.woff2') format('woff2');
+  src: url('./fonts/chillax/Chillax-SemiBold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Chillax';
-  src: url('./assets/fonts/chillax/Chillax-Bold.woff2') format('woff2');
+  src: url('./fonts/chillax/Chillax-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
 
+/* for font-steppe */
+
+@font-face {
+  font-family: 'Steppe';
+  src: url('./fonts/steppe/Steppe-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steppe';
+  src: url('./fonts/steppe/Steppe-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steppe';
+  src: url('./fonts/steppe/Steppe-Book.woff2') format('woff2');
+  font-weight: 350;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steppe';
+  src: url('./fonts/steppe/Steppe-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steppe';
+  src: url('./fonts/steppe/Steppe-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steppe';
+  src: url('./fonts/steppe/Steppe-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steppe';
+  src: url('./fonts/steppe/Steppe-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steppe';
+  src: url('./fonts/steppe/Steppe-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steppe';
+  src: url('./fonts/steppe/Steppe-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* for font-gilroy */
+
+@font-face {
+  font-family: 'Gillroy';
+  src: url('./fonts/gillroy/Gilroy-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gillroy';
+  src: url('./fonts/gillroy/Gilroy-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gillroy';
+  src: url('./fonts/gillroy/Gilroy-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gillroy';
+  src: url('./fonts/gillroy/Gilroy-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gillroy';
+  src: url('./fonts/gillroy/Gilroy-Heavy.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+
 @theme {
   --font-chillax: 'Chillax', sans-serif;
+  --font-steppe: 'Steppe';
+  --font-gilroy: 'Gilroy';
 }

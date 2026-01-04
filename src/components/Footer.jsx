@@ -10,14 +10,14 @@ const Footer = () => {
     <footer id="contact" className="bg-green-900 mx-auto max-w-9/10 mt-10 text-white px-6 py-6 sm:px-10 sm:py-10 m-10 grid md:grid-cols-2 gap-10">
       <div className="">
         <div>
-        <h4 className="font-semibold text-lg sm:text-3xl mb-5">Beauty Care</h4>
-        <p className="text-[14px] sm:text-[15px] opacity-80 w-full sm:w-3/4 mt-5">
+        <h4 className="text-lg sm:text-3xl mb-5 font-normal font-chillax">DD Nature</h4>
+        <p className="text-[14px] opacity-80 mt-5 w-full sm:w-3/4 sm:text-[17px] sm:ml-2">
           Honoring our heritage through every drop — pure, authentic, and 
           naturally wholesome Mara Chekku oils for your family’s wellbeing.
         </p>
         </div>
         <div>
-          <h2 className="text-lg sm:text-3xl my-5 font-semibold">Follow Us</h2>
+          <h2 className="text-lg sm:text-3xl my-5 font-chillax font-normal">Follow Us</h2>
           <div className="flex gap-5 ml-2">
           <a href="https://www.instagram.com/ddnature_oil/"><img src={instagram} className="h-8 cursor-pointer"/></a>
           <a href="https://wa.me/918807455038"><img src={whatsapp} className="h-8"/></a>

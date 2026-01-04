@@ -11,7 +11,7 @@ const Hero = () => {
 
         {/* LEFT */}
         <div>
-          <h1 className="text-[64px] leading-16 font-chillax font-semibold mb-6">
+          <h1 className="text-[64px] leading-16 font-chillax font-light mb-6">
             Happiness <br />blooms from <br /> within
           </h1>
 

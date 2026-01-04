@@ -4,14 +4,13 @@ import search from "../assets/search.svg";
 import cart from "../assets/shopping-cart.svg";
 import user from "../assets/user.svg";
 import searchGreen from "../assets/search-line.svg";
-import About from "./About";
 
 const Navbar = () => {
   const [showSearch, setShowSearch] = useState(false);
   const [showOption, setShowOption] = useState(false);
 
   return (
-    <header className="bg-green-900 text-neutral-50 ">
+    <header className="bg-green-900  text-neutral-50 ">
       <div className="pt-4 flex items-center justify-between max-w-9/10 mx-auto">
         <button
           type="button"
@@ -75,11 +74,11 @@ const Navbar = () => {
 
       {showOption && (
         <div className="">
-          <ul className="top-30 flex flex-col bg-white text-green-700 my-2 border-none space-y-2 ">
+          <ul className="top-30 flex flex-col divide-y-1 divide-y bg-white text-green-700 ">
             <li>
               <a
                 href="#products"
-                className="block py-2 px-3 text-m active:text-white active:bg-green-700 hover:bg-neutral-tertiary hover:bg-transparent border-0 hover:text-fg-brand p-0"
+                className="block py-2 px-3 text-m active:text-white active:bg-green-700 hover:bg-neutral-tertiary hover:bg-transparent hover:text-fg-brand "
               >
                 Products
               </a>
@@ -87,7 +86,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-m active:text-white active:bg-green-700 hover:bg-neutral-tertiary hover:bg-transparent border-0 hover:text-fg-brand p-0"
+                className="block py-2 px-3 text-m active:text-white active:bg-green-700 hover:bg-neutral-tertiary hover:bg-transparent hover:text-fg-brand"
               >
                 Cart
               </a>
@@ -95,7 +94,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#about"
-                className="block py-2 px-3 text-m active:text-white active:bg-green-700 hover:bg-neutral-tertiary hover:bg-transparent border-0 hover:text-fg-brand p-0"
+                className="block py-2 px-3 text-m active:text-white active:bg-green-700 hover:bg-neutral-tertiary hover:bg-transparent hover:text-fg-brand"
               >
                 About
               </a>
@@ -103,7 +102,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#contact"
-                className="block py-2 px-3 text-m active:text-white active:bg-green-700 hover:bg-neutral-tertiary hover:bg-transparent border-0 hover:text-fg-brand p-0"
+                className="block py-2 px-3 text-m active:text-white active:bg-green-700 hover:bg-neutral-tertiary hover:bg-transparent hover:text-fg-brand"
               >
                 Contact
               </a>
