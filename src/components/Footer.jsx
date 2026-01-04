@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="">
         <div>
         <h4 className="text-lg sm:text-3xl mb-5 font-normal font-chillax">DD Nature</h4>
-        <p className="text-[14px] opacity-80 mt-5 w-full sm:w-3/4 sm:text-[17px] sm:ml-2">
+        <p className="text-[14px] opacity-80 mt-5 w-full sm:w-3/4 sm:text-[17px] sm:ml-2 font-oxygen">
           Honoring our heritage through every drop — pure, authentic, and 
           naturally wholesome Mara Chekku oils for your family’s wellbeing.
         </p>
@@ -19,7 +19,7 @@ const Footer = () => {
         <div>
           <h2 className="text-lg sm:text-3xl my-5 font-chillax font-normal">Follow Us</h2>
           <div className="flex gap-5 ml-2">
-          <a href="https://www.instagram.com/ddnature_oil/"><img src={instagram} className="h-8 cursor-pointer"/></a>
+          <a href="https://www.instagram.com/ddnature_oil"><img src={instagram} className="h-8 cursor-pointer"/></a>
           <a href="https://wa.me/918807455038"><img src={whatsapp} className="h-8"/></a>
           <a href="mailto:ddnature.oil@gmail.com"><img src={mail} className="h-8"/></a>
         </div>
@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
 
       <div>
-        <h4 className="font-semibold text-lg mb-3">Instagram Shop</h4>
+        <h4 className="font-normal  text-lg sm:text-3xl mb-3 font-chillax">Instagram Shop</h4>
         <div className="grid grid-cols-3 gap-3">
           <div className="bg-teal-900 w-full rounded-lg">
             <img src={img1}/>

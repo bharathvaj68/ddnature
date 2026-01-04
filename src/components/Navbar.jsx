@@ -10,7 +10,7 @@ const Navbar = () => {
   const [showOption, setShowOption] = useState(false);
 
   return (
-    <header className="bg-green-900  text-neutral-50 ">
+    <header className="bg-green-900 text-neutral-50 ">
       <div className="pt-4 flex items-center justify-between max-w-9/10 mx-auto">
         <button
           type="button"
@@ -32,16 +32,8 @@ const Navbar = () => {
             />
           </svg>
         </button>
-        <div className="hidden sm:flex flex-row">
+        <div className="hidden sm:flex flex-row font-dmsans">
           <ul className="sm:flex flex-row hidden md:flex gap-6 text-m ">
-            <li>
-              <a
-                href="#products"
-                className=""
-              >
-                Products
-              </a>
-            </li>
             <li>
               <a
                 href="#about"
@@ -64,7 +56,7 @@ const Navbar = () => {
         <img className="justify-center-safe" src={logo} />
 
         <div className="flex gap-6">
-          <img src={search} alt="Search" className="cursor-pointer  hover:opacity-80" onClick={() => setShowSearch(!showSearch)} />
+          <img src={search} alt="Search" className="cursor-pointer font-steppe hover:opacity-80" onClick={() => setShowSearch(!showSearch)} />
 
           
           <img src={cart} className="hidden sm:block"/>
@@ -75,14 +67,6 @@ const Navbar = () => {
       {showOption && (
         <div className="">
           <ul className="top-30 flex flex-col divide-y-1 divide-y bg-white text-green-700 ">
-            <li>
-              <a
-                href="#products"
-                className="block py-2 px-3 text-m active:text-white active:bg-green-700 hover:bg-neutral-tertiary hover:bg-transparent hover:text-fg-brand "
-              >
-                Products
-              </a>
-            </li>
             <li>
               <a
                 href="#"

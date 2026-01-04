@@ -1,7 +1,6 @@
 import img1 from "../assets/images/1.png"
 import img2 from "../assets/images/2.png"
 import img3 from "../assets/images/3.png"
-import arrow from "../assets/Arrow.svg"
 import pattern from "../assets/pattern.svg"
 
 const Hero = () => {
@@ -15,26 +14,20 @@ const Hero = () => {
             Happiness <br />blooms from <br /> within
           </h1>
 
-          <p className="text-lg text-white max-w-lg mb-8">
+          <p className="text-lg font-oxygen text-white max-w-lg mb-8">
             Guided by the spirit of “Mariduvom Matriduvom,” every <br /> bottle reflects our journey 
             - a seamless blend of heritage, <br /> authenticity, and pure natural goodness…
           </p>
 
           <div className="flex items-center gap-6">
-            <button className="bg-white text-black px-7 py-3 text-sm font-medium">
+            <a href="#products" className="bg-white text-black px-7 py-3 text-sm font-medium">
               Shop now
-            </button>
-            <div className="flex gap-2">
-            <a href="#" className="text-sm font-medium">
-              Explore Oil Products
             </a>
-            <img src={arrow} alt="arrow" className="align-middle relative top-[2px]" />
-            </div>
           </div>
         </div>
 
         {/* RIGHT */}
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid font-steppe grid-cols-2 gap-3">
           <div className="bg-gray-400  flex-col sm:h-[220px] " >
             <img className="z-0 w-full h-full items-center object-cover" src={img1}/>
             <p className="bg-green-900 px-1 w-fit relative -top-9/10 left-2 text-white text-base font-thin">New Parachute</p>
