@@ -7,7 +7,7 @@ const InfoStrip = () => {
     <section className="bg-gray-100 my-10">
       <div className="mx-auto px-6 py-10 grid grid-cols-1 sm:grid-cols-3  font-semibold ">
         
-          <div className="flex items-center justify-center gap-3 ">
+          <div className="flex items-center justify-center gap-3 py-2">
             <img src={pure} className="h-9/10"></img>
             <div className="flex-col text-start">
               <p className="text-xl text-black">Pure & Natural</p>
@@ -15,7 +15,7 @@ const InfoStrip = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-center gap-3 animate-slide-in-right [animation-delay:0.2s]">
+          <div className="flex items-center justify-center gap-3 py-2">
             <img src={healthy} className="h-9/10"></img>
             <div className="flex-col text-start">
               <p className="text-xl text-black">Healthy Choice</p>
@@ -23,7 +23,7 @@ const InfoStrip = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-center gap-3 animate-slide-in-right [animation-delay:0.4s]">
+          <div className="flex items-center justify-center gap-3 py-2">
             <img src={price} className="h-9/10"></img>
             <div className="flex-col text-start">
               <p className="text-xl text-black">Honest & Fair Pricing</p>
