@@ -8,7 +8,7 @@ import About from "./components/About";
 import Testimonials from "./components/Testimonials";
 import Map from "./components/Map";
 import Footer from "./components/Footer";
-import ProductDetail from "./pages/ProductDetail";
+// import ProductDetail from "./pages/ProductDetail";
 import Checkout from "./pages/Checkout";
 import "./App.css";
 
